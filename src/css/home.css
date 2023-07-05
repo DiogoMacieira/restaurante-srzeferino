@@ -1,0 +1,124 @@
+.homewrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.homepage {
+  min-width: 86%;
+  height: 90vh;
+  background: url("../assets/hometeste1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  padding: 8% 0 0 0;
+}
+
+
+.subtitle {
+  padding-bottom: 10%;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* CARDS */
+
+
+.titlecards{
+  margin: 5% 0;
+}
+
+.titlecards h2{
+  font-size: 40px;
+}
+.cardwrapper {
+  padding: 0 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  justify-content: center;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.umcard {
+  background-color: #fff;
+  padding-bottom: 25px;
+} 
+
+
+.doiscard {
+  background-color: #fff;
+}
+
+.trescard {
+  background-color: #fff;
+}
+
+.card h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card h4,
+p,
+a {
+  padding: 0 20px;
+}
+
+.card a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.h41 {
+  color: #000;
+  text-align: center;
+}
+
+.h42 {
+  color: #000;
+   text-align: center;
+}
+
+.h43 {
+  color: #000;
+  text-align: center;
+
+}
+
+
+.imgdiv {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cardp {
+  color: #000;
+  line-height: 2;
+}
+
+
+

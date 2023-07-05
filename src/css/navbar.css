@@ -1,0 +1,28 @@
+.navbody {
+  padding: 0 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkwrapper {
+  display: flex;
+}
+
+.linkwrapper a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+.line {
+  border: 1px solid black;
+}
