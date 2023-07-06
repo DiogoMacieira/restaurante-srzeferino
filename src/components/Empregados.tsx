@@ -8,7 +8,7 @@ const Empregados = () => {
   return (
      <div className="container">
       <form>
-        <h2>Login</h2>
+        <h2 className="login">Login</h2>
         <div className="form-group">
           <label htmlFor="username">Nº Empregado:</label>
           <input type="text" id="username" name="username" placeholder="Insira o seu numero de empregado" required />

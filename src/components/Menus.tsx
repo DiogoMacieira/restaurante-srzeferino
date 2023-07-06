@@ -14,7 +14,7 @@ const Menus = () => {
   return (
     <div className="menubody">
       <div className="menutittle">
-        <h1>Os Nossos Menus</h1>
+        <h1>Os Nossos Menus:</h1>
       </div>
       <div className="menuitemscontainer">
         <div className="menuitems">
